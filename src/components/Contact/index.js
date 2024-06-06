@@ -37,7 +37,7 @@ const Contact = () => {
   };
 
   return (
-    <Container id="contact">
+    <Container id="contact" style={{ scrollMarginTop: 90 }}>
       <Wrapper>
         <Title>Contact</Title>
         <Desc>

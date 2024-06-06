@@ -43,7 +43,7 @@ const Projects = ({ openModal, setOpenModal }) => {
   };
 
   return (
-    <Container id="projects">
+    <Container id="projects" style={{ scrollMarginTop: 100 }}>
       <Wrapper>
         <Title>Projects</Title>
         <Desc>

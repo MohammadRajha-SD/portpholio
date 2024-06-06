@@ -21,7 +21,7 @@ const Educations = () => {
     setEducations(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
   return (
-    <Container id="education">
+    <Container id="education" style={{ scrollMarginTop: 100 }}>
       <Wrapper>
         <Title>Education</Title>
         <Desc>
@@ -31,15 +31,15 @@ const Educations = () => {
         <TimelineSection>
           <Timeline>
             {educations.map((education, index) => (
-              <TimelineItem>
+              <TimelineItem key={index}>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>
                   <EducationCard education={education} />
                 </TimelineContent>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {/* {index !== experiences.length && (
+                  {index !== educations.length - 1 && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
-                  )} */}
+                  )}
                 </TimelineSeparator>
               </TimelineItem>
             ))}

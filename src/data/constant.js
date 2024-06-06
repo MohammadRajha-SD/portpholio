@@ -174,6 +174,7 @@ export const skills = [
   },
 ];
 
+// done
 export const experiences = [
   {
     id: 0,
@@ -279,6 +280,7 @@ export const experiences = [
   },
 ];
 
+// done
 export const education = [
   {
     id: 0,

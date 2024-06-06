@@ -32,9 +32,11 @@ function Footer() {
       <FooterWrapper>
         <Logo>{id.name}</Logo>
         <Nav>
-          <NavLink href="/">Home</NavLink>
+          <NavLink href="#about">Home</NavLink>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </Nav>

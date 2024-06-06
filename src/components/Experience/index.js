@@ -19,16 +19,15 @@ const Experience = () => {
     const data = await experienceServices.getAllExperiences();
     setExperiences(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
-  console.log(experiences);
   return (
-    <Container id="experience">
+    <Container id="experience" style={{ scrollMarginTop: 90 }}>
       <Wrapper>
         <Title>Experience</Title>
         <Desc>Here are some of my projects</Desc>
         <TimelineSection>
           <Timeline>
             {experiences.map((experience, index) => (
-              <TimelineItem>
+              <TimelineItem key={experience.id}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
                   {index !== experiences.length - 1 && (

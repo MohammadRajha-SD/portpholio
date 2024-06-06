@@ -12,7 +12,7 @@ import {
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
-  
+
   useEffect(() => {
     getAllSkills();
   }, []);
@@ -23,7 +23,7 @@ const Skills = () => {
   };
 
   return (
-    <Container id="skills">
+    <Container id="skills" style={{ scrollMarginTop: 90 }}>
       <Wrapper>
         <Title>Skills</Title>
         <Desc>

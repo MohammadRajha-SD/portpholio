@@ -28,7 +28,7 @@ const HeroSection = () => {
     setID(data.data());
   };
   return (
-    <div id="about">
+    <div id="home" style={{ scrollMarginTop: 100 }}>
       <HeroContainer>
         <HeroBg>
           <HeroBgAnimation />
