@@ -1,0 +1,24 @@
+import React, { useState } from 'react'; const ImageUpload = ({ firebase }) => {
+const [image, setImage] = useState(null); const handleImageChange = (e) => { if
+(e.target.files[0]) { setImage(e.target.files[0]); } }; const handleImageUpload
+= () => { const storageRef = firebase.storage().ref(); const imageRef =
+storageRef.child(image.name); imageRef.put(image).then(() => {
+console.log('Image uploaded successfully'); }); }; return (
+<div>
+  <input type="file" onChange="{handleImageChange}" />
+  <button onClick="{handleImageUpload}">Upload Image</button>
+</div>
+); }; export default ImageUpload;
+<!-- NOMEJFAF -->
+import React, { useEffect, useState } from 'react'; const ImageGallery = ({
+firebase }) => { const [imageUrls, setImageUrls] = useState([]); useEffect(() =>
+{ const storageRef = firebase.storage().ref();
+storageRef.listAll().then((result) => { result.items.forEach((imageRef) => {
+imageRef.getDownloadURL().then((url) => { setImageUrls((prevUrls) =>
+[...prevUrls, url]); }); }); }); }, [firebase]); return (
+<div>
+  {imageUrls.map((url, index) => (
+  <img key="{index}" src="{url}" alt="{`Image" ${index}`} />
+  ))}
+</div>
+); }; export default ImageGallery;
