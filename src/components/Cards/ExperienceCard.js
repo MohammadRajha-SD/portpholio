@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { ref, getDownloadURL } from "firebase/storage";
+import { storage } from "../../firebase";
 
 const Document = styled.img`
   display: none;
@@ -140,10 +142,20 @@ const Skill = styled.div`
 `;
 
 const ExperienceCard = ({ experience }) => {
+  const [url, setUrl] = useState("");
+
+  if (experience.img) {
+    const imgRef = ref(storage, experience.img);
+
+    getDownloadURL(imgRef).then((path) => {
+      setUrl(path);
+    });
+  }
+
   return (
     <Card>
       <Top>
-        <Image src={experience.img} />
+        <Image src={url ?? ""} />
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>

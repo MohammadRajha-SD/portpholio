@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { storage } from "../../firebase.js";
+import { ref, getDownloadURL } from "firebase/storage";
 
 const Document = styled.img`
   display: none;
@@ -125,13 +127,22 @@ const Grade = styled.div`
 `;
 
 const EducationCard = ({ education }) => {
+  const [url, setUrl] = useState("");
+
+  if (education.img !== "") {
+    const imgRef = ref(storage, education.img);
+    getDownloadURL(imgRef).then((path) => {
+      setUrl(path);
+    });
+  }
+
   return (
     <Card>
       <Top>
-        <Image src={education.img} />
+        <Image src={url ?? ""} />
         <Body>
           <Name>{education.school}</Name>
-          <Degree>{education.degree}</Degree>
+          {/* <Degree>{education.degree}</Degree> */}
           <Date>{education.date}</Date>
         </Body>
       </Top>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -6,10 +6,20 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import ExperienceCard from "../Cards/ExperienceCard";
-import { experiences } from "../../data/constant";
+// import { experiences } from "../../data/constant";
 import { Container, Wrapper, Title, Desc, TimelineSection } from "../index.jsx";
+import experienceServices from "../../services/experience.services";
 
 const Experience = () => {
+  const [experiences, setExperiences] = useState([]);
+  useEffect(() => {
+    getExperiences();
+  });
+  const getExperiences = async () => {
+    const data = await experienceServices.getAllExperiences();
+    setExperiences(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+  };
+  console.log(experiences);
   return (
     <Container id="experience">
       <Wrapper>

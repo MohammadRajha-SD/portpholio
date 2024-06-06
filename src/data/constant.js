@@ -345,3 +345,9 @@ export const TimeLineData = [
   { year: 2021, text: "Started my own platform" },
   { year: 2022, text: "Worked as a freelance developer" },
 ];
+/**
+ * todo education
+ * I have spent the last three years dedicated to becoming a skilled software developer. Throughout this period, I have completed numerous courses on platforms like YouTube and Udemy, where I have gained proficiency in various programming languages and development frameworks. I have also worked on real-world projects and tasks, applying my knowledge to solve practical problems and develop innovative solutions. This hands-on experience has been invaluable in advancing my goal of becoming a proficient software developer.
+ * I began studying coding when I was in the 7th grade, which helped me develop a strong foundation in logical thinking. This early start proved invaluable when I began my formal education at the institute. Additionally, I explored web development on my phone, encountering and overcoming numerous errors along the way. Despite the challenges, this experience was incredibly exciting and fueled my passion for learning and growth in the field of software development.
+ * I worked for six months during my third year, gaining hands-on experience with real-life projects related to Point of Sale (POS) systems. This role was instrumental in my development, providing valuable insights and practical skills that have significantly contributed to my growth as a software developer.
+ */
