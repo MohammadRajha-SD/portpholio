@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
+import { ref, getDownloadURL } from "firebase/storage";
+import { storage } from "../../firebase.js";
+
 const Button = styled.button`
   display: none;
   width: 100%;
@@ -120,6 +123,7 @@ const Members = styled.div`
   align-items: center;
   padding-left: 10px;
 `;
+
 const Avatar = styled.img`
   width: 38px;
   height: 38px;
@@ -131,11 +135,19 @@ const Avatar = styled.img`
 `;
 
 const ProjectCards = ({ project, setOpenModal }) => {
+  const [url, setUrl] = useState("");
+
+  const imgRef = ref(storage, project.image);
+
+  getDownloadURL(imgRef).then((path) => {
+    setUrl(path);
+  });
+
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
       {project && (
         <>
-          <Image src={""} alt="Image not found.." />
+          <Image src={url} alt="Image not found.." />
           <Tags>
             {project.tags?.map((tag, index) => (
               <Tag key={index}>{tag}</Tag>

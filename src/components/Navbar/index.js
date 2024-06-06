@@ -59,7 +59,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
           />
         </MobileIcon>
         <NavItems>
-          <NavLink href="/">Home</NavLink>
+          <NavLink href="#about">Home</NavLink>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           {/* <NavLink href="#experience">Experience</NavLink> */}
@@ -79,7 +79,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
         {isopen && (
           <MobileMenu isopen={isopen}>
             <MobileLink
-              href="/"
+              href="#about"
               onClick={() => {
                 setIsOpen(!isopen);
               }}
