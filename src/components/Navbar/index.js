@@ -68,7 +68,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
   };
 
   const handleClickMode = () => {
-    // setDarkMode(!darkMode);
+    setDarkMode(!darkMode);
   };
 
   return (

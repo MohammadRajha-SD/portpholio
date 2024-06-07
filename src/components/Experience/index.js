@@ -16,7 +16,7 @@ const Experience = () => {
     getExperiences();
   });
   const getExperiences = async () => {
-    const data = await experienceServices.getAllExperiences();
+    const data = (await experienceServices.getAllExperiences()) ?? [];
     setExperiences(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   };
   return (
