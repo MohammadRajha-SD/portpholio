@@ -7,6 +7,9 @@ export const SkillsContainer = styled.div`
   margin-top: 30px;
   gap: 30px;
   justify-content: center;
+  @media (max-width: 500px) {
+    padding: 0 10px;
+  }
 `;
 
 export const Skill = styled.div`
