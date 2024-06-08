@@ -13,10 +13,11 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
 import { useTheme } from "styled-components";
 import IdDataService from "../../services/id.services.js";
 import Scrollspy from "react-scrollspy";
+// FaSun, FaMoon,
+import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ setDarkMode, darkMode }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +31,7 @@ const Navbar = ({ setDarkMode, darkMode }) => {
     "experience",
     "projects",
     "contact",
-  ]; // Add "home" section
+  ];
   const theme = useTheme();
 
   useEffect(() => {
@@ -109,6 +110,13 @@ const Navbar = ({ setDarkMode, darkMode }) => {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#contact">Contact</NavLink>
         </Scrollspy>
+
+        {/* <ButtonContainer>
+          <GitHubButton onClick={handleClickMode}>
+            {darkMode && <FaSun />}
+            {!darkMode && <FaMoon />}
+          </GitHubButton>
+        </ButtonContainer> */}
         <ButtonContainer>
           <GitHubButton href={id.github} target="_blank">
             Github Profile

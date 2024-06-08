@@ -16,4 +16,15 @@ export const Box = styled.div`
   padding: 18px 36px;
   color: white;
   align-items: center;
+  text-align: center;
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+  @media (max-width: 426px) {
+    width: 500px;
+  }
+  @media (max-width: 500px) {
+    max-width: 300px;
+    padding: 10px 36px;
+  }
 `;

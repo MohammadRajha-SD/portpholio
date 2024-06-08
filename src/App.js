@@ -69,11 +69,13 @@ function App() {
           <Wrapper>
             <Views />
             <Skills />
+          </Wrapper>
+          <Wrapper>
             <Eduction />
             <Experience />
           </Wrapper>
-          <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Contact />
           </Wrapper>
           <Footer />

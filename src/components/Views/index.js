@@ -3,7 +3,6 @@ import { Container, Title, Wrapper } from "../index.jsx";
 import { FaCode, FaCheck, FaEye, FaCoffee } from "react-icons/fa";
 import { SubContainer, Box } from "./StyledViews.js";
 import ViewDataService from "../../services/view.services.js";
-import { Margin } from "@mui/icons-material";
 
 const Views = () => {
   const [data, setData] = useState([]);
