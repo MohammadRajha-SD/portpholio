@@ -40,6 +40,13 @@ const Card = styled.div`
   flex-direction: column;
   gap: 14px;
   transition: all 0.5s ease-in-out;
+  background: ${({ theme }) => theme.card};
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 0.1px solid #854ce6;
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
