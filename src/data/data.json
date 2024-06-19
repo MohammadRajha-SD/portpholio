@@ -1,0 +1,169 @@
+{
+  "data": {
+    "education": {
+      "0": {
+        "id": 0,
+        "desc": "I worked for six months during my third year, gaining hands-on experience with real-life projects related to Point of Sale (POS) systems. This role was instrumental in my development, providing valuable insights and practical skills that have significantly contributed to my growth as a software developer. ",
+        "img": "birhassan.png",
+        "date": "October 2023 -  January 2024",
+        "grade": "BT3",
+        "degree": "--",
+        "school": "Institute Bir Hassan"
+      },
+      "1": {
+        "id": 1,
+        "desc": "I began studying coding when I was in the 7th grade, which helped me develop a strong foundation in logical thinking. This early start proved invaluable when I began my formal education at the institute. Additionally, I explored web development on my phone, encountering and overcoming numerous errors along the way. Despite the challenges, this experience was incredibly exciting and fueled my passion for learning and growth in the field of software development.",
+        "img": "birhassan.png",
+        "date": "Apr 2017 - Apr 2019",
+        "grade": "7th",
+        "degree": "--",
+        "school": "High School"
+      },
+      "2": {
+        "id": 2,
+        "desc": "I have spent the last three years dedicated to becoming a skilled software developer. Throughout this period, I have completed numerous courses on platforms like YouTube and Udemy, where I have gained proficiency in various programming languages and development frameworks. I have also worked on real-world projects and tasks, applying my knowledge to solve practical problems and develop innovative solutions. This hands-on experience has been invaluable in advancing my goal of becoming a proficient software developer.",
+        "img": "birhassan.png",
+        "date": "Octobar 2020 - July 2024",
+        "grade": "BT1-BT3",
+        "degree": "90%",
+        "school": "Institute Bir Hassan"
+      }
+    },
+    "experience": {
+      "0": {
+        "id": 0,
+        "company": "Freelancer",
+        "date": "Final Year Project",
+        "desc": "I worked on my final year project, a comprehensive blood bank management system called BloodX. This project aimed to streamline the blood donation process, manage donor and recipient data, and ensure efficient blood stock management. I collaborated with a talented teammate, Elias Balkis, to bring this project to life.",
+        "img": "freelancer.png",
+        "role": "Lead Developer",
+        "doc": "",
+        "skills": [
+          "PHP",
+          "CSS",
+          "Bootstrap",
+          "HTML",
+          "JavaScript",
+          "AJAX",
+          "jQuery"
+        ]
+      },
+      "1": {
+        "id": 0,
+        "company": "Freelancer",
+        "date": "May 2024 - June 2024",
+        "desc": "I developed and am hosting a multi-functional project for CEC Consultancy, which integrates three distinct services: insurance, immigration, and scholarships. The platform is built using Laravel, AJAX, JavaScript, Bootstrap, and jQuery. It features a dynamic dashboard that allows for comprehensive management of all website functionalities, ensuring a seamless user experience. ",
+        "img": "freelancer.png",
+        "role": "Fullstack  Developer",
+        "doc": "",
+        "skills": ["Laravel", "Bootstrap", "JavaScript", "AJAX", "jQuery"]
+      }
+    },
+    "id": {
+      "id": 0,
+      "description": "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "facebook": "https://www.facebook.com/profile.php?id=100040536245347&mibextid=LQQJ4d",
+      "github": "https://github.com/MohammadRajha-SD",
+      "linkedin": "https://www.linkedin.com/in/mohammad-rajha-573bb42a6",
+      "insta": "https://www.instagram.com/abo_amir.18/",
+      "name": "Mohammad Rajha",
+      "resume": "",
+      "role": ["Full stack Developer"],
+      "twitter": "https://twitter.com/aboAmir_7",
+      "whats": "https://wa.me/76058737"
+    },
+    "pageViews": {
+      "0": {
+        "id": 0,
+        "content": "Page Views",
+        "count": "9999999",
+        "icon": "eye"
+      },
+      "1": {
+        "id": 1,
+        "content": "Cups of coffee",
+        "count": "999999",
+        "icon": "coffee"
+      },
+      "2": {
+        "id": 2,
+        "content": "Projects Done",
+        "count": "50",
+        "icon": "project"
+      },
+      "3": {
+        "id": 3,
+        "content": "Lines of code",
+        "count": "999999",
+        "icon": "code"
+      }
+    },
+    "project": {
+      "0": {
+        "id": 1,
+        "category": "web app",
+        "date": "Dec 2021 - Apr 2022",
+        "description": "In the context of React, 'weather' typically refers to data related to atmospheric conditions such as temperature, humidity, wind speed, and precipitation. When developers talk about incorporating weather information into a React application, they are often referring to creating components or features that display real-time or forecasted weather data.",
+        "github": "https://github.com/MohammadRajha-SD/ReactBlog",
+        "image": "weather.png",
+        "title": "Weather",
+        "webapp": "https://weather-react-app-rajha.netlify.app",
+        "tags": ["HTML", "CSS", "React", "RestApi", "API", "Postman"]
+      },
+      "1": {
+        "id": 2,
+        "category": "web app",
+        "date": "01/06/2024",
+        "description": "BloodX is an innovative web platform developed by myself and Elias Balkis, aimed at revolutionizing blood donation and distribution. Similar to a blog, BloodX allows users to share information, updates, and stories related to blood donation in a chronological format. It serves as a crucial tool for connecting blood donors with those in need, facilitating efficient coordination of donation drives and providing educational resources. Additionally, we have integrated an advanced dashboard into our website, enhancing user experience and enabling streamlined management of blood donation activities. Through BloodX, we aim to foster communication, collaboration, and engagement within the blood donation community, contributing to the mission of ensuring a reliable blood supply for all.",
+        "github": "https://github.com/MohammadRajha-SD/bloodX",
+        "image": "bloodX.png",
+        "title": "BloodX",
+        "webapp": "https://bloodx-2024.000webhostapp.com/index.php",
+        "tags": [
+          "PHP",
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "AJAX",
+          "jQuery",
+          ""
+        ]
+      },
+      "2": {
+        "id": 2,
+        "category": "web app",
+        "date": "Jun 2023 - Jul 2023",
+        "description": "A blog is a web-based platform or application that facilitates the creation and publication of content in a chronological, reverse-chronological, or topic-specific format. Typically maintained by an individual, a group, or an organization, a blog allows users to share information, opinions, and multimedia content such as text, images, and videos. Blogs often serve as a personal or professional outlet for expression, commentary, and communication, and they enable interaction through comments and social media sharing. The term 'blog' is a shortened form of 'weblog,' reflecting its origins as a form of online journaling or logging of information",
+        "github": "https://github.com/MohammadRajha-SD/Blog",
+        "image": "Blog.png",
+        "title": "Blog",
+        "webapp": "https://github.com/MohammadRajha-SD/Blog",
+        "tags": ["Laravel", "Tailwind CSS", "Alpine Js"]
+      }
+    },
+    "skills": {
+      "0": {
+        "title": "frontend",
+        "skills": [
+          {
+            "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+            "name": "React Js"
+          },
+          {
+            "image": "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+            "name": "Redux"
+          },
+          {
+            "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+            "name": "React Js"
+          },
+          {
+            "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+            "name": "React Js"
+          }
+        ]
+      }
+    }
+  }
+}

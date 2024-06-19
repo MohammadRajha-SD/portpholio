@@ -19,7 +19,7 @@ const Views = () => {
 
   const updatePageViews = async (getData) => {
     let doc = getData.filter((d) => d.icon === "eye")[0];
-    // doc.count += 1;
+    doc.count += 1;
     await ViewDataService.updateView(doc.id, doc);
   };
   return (
